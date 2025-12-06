@@ -1,13 +1,20 @@
-# Projet Math Hasting-Metropolis
+# The Metropolis-Hastings Algorithm and the Travelling Salesman Problem
 
-## fr
+This repository contains an undergraduate technical report and accompanying code on the Metropolis-Hastings (MH) algorithm and its application to the Travelling Salesman Problem (TSP).  
+The work was carried out as part of the "Projet de la licence de Mathématiques" course in the MIDL double-major programme (Mathematics and Computer Science) at the University of Toulouse - Paul Sabatier.
 
-Il s'agit d'un projet universitaire, ayant pour but de comprendre l'algorithme de Metropolis-Hasting, dans le cadre de l'UE *Projet Math* de la double licence en math est informatique de l'université de Toulouse.  
+The authors of this project are [Tom Le Ber](https://github.com/tominien), [Tony Perottino](https://github.com/KibyPoyo), [Corentin Vaillant](https://github.com/CorentinVaillant) and [Léo Bernard](https://github.com/Yolwoocle).
 
-Ce projet est fait par [tominien](https://github.com/tominien), [KibyPoyo](https://github.com/KibyPoyo) et [CorentinVaillant](https://github.com/CorentinVaillant)
+## Project overview
 
-## en
+This project had two main goals:
 
-This repo is a project for the *Projet Math* class at Toulouse University. The point is to understand the Metropolis-Hasting algorithm.
+**1. A theoretical study of Markov chains and the Metropolis-Hastings algorithm :**
+   - Definitions and basic properties of Markov chains (transition matrices, communicating classes, recurrence, ergodicity, invariant distributions).
+   - Construction of the Metropolis-Hastings algorithm as a Markov chain with a prescribed invariant distribution.
+   - Proofs of key properties such as reversibility and convergence under suitable conditions.
 
-The authors of this project are [tominien](https://github.com/tominien), [KibyPoyo](https://github.com/KibyPoyo) and [CorentinVaillant](https://github.com/CorentinVaillant).  
+**2. A practical implementation :**
+   - Python implementation of the Metropolis-Hastings algorithm.
+   - Sampling from various target distributions (Gaussian, mixtures, discrete laws, etc.).
+   - Application to the Travelling Salesman Problem (TSP).

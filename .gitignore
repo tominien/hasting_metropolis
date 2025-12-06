@@ -193,8 +193,6 @@ cython_debug/
 # these rules might exclude image files for figures etc.
 # *.ps
 # *.eps
-*.pdf
-Algorithme_Hasting_Metropolis_-_Probleme_du_voyageur_de_commerce_-_LeBer_Perrotino_Vaillant_Bernard.pdf
 
 ## Bibliography auxiliary files (bibtex/biblatex/biber):
 *.bbl
